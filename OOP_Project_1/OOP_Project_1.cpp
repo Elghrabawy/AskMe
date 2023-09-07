@@ -4,15 +4,14 @@
 #include <iostream>
 #include "System.h"
 #include "Global_Functions_Variables.h"
+
 using namespace std;
 
 int main()
 {
-
     System s;
 
     s.LoadDataBase();
-
 
     s.run();
 }
